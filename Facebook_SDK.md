@@ -23,4 +23,4 @@ When your app makes API calls to your server, validate the user's identity by ve
 ```
 GET https://graph.accountkit.com/v1.3/me/?access_token=<access_token>
 ```
-This response also includes the current associated login info, such as email or phone number, and it includes your app's ID. Check the returned ID against your app's ID to make sure the access token is valid for your app.
+This returns the Account ID associated with this User Access Token if it's valid.This response also includes the current associated login info, such as email or phone number, and it includes your app's ID. Check the returned ID against your app's ID to make sure the access token is valid for your app.
